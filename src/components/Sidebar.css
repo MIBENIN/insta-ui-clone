@@ -1,0 +1,30 @@
+.sidebar_icons{
+    width:2rem ;
+    height: 2rem ;
+    fill:#333;
+}
+
+.sidebar{
+    width:auto;
+    padding: 1em;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.sidebar_Links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap:1em;
+}
+
+.sidebar_label{
+    display: inline-block;
+    margin-left: 1em;
+    font-weight: bold;
+    color: #333;
+}
+
